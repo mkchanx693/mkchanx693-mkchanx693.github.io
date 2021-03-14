@@ -1,0 +1,53 @@
+{
+	"status": 0,
+	"msg": "Done",
+	"d": {
+		"homebanner": [
+			{
+				"name": "winter",
+				"content": "homebanner_english_Desktop_ENG2234.jpg",
+				"mobile_content": "homebanner_mobile_english_Mobile_ENG223.jpg",
+				"url": "",
+				"sequence": "1"
+			},
+			{
+				"name": "Number Game",
+				"content": "homebanner_english_Desktop_ENG_MY666.jpg",
+				"mobile_content": "homebanner_mobile_english_Mobile_ENG_MY2343243.jpg",
+				"url": "https://www.eclbet.com/my/number-game.html",
+				"sequence": "2"
+			},
+			{
+				"name": "new year 2020",
+				"content": "homebanner_english_Group_Slogan___Desktop_ENG.png",
+				"mobile_content": "homebanner_mobile_english_Mobile_234MainBanner_ENG_V2_JPG.jpg",
+				"url": "",
+				"sequence": "3"
+			},
+			{
+				"name": "Official website",
+				"content": "homebanner_english_Official_Website__Desktop_ENG.jpg",
+				"mobile_content": "homebanner_mobile_english_ENG_Website_123.jpg",
+				"url": "",
+				"sequence": "4"
+			},
+			{
+				"name": "TruePay",
+				"content": "homebanner_english_Desktop_truepay_ENG.png",
+				"mobile_content": "homebanner_mobile_english_Mobile_truepay_ENG.png",
+				"url": "",
+				"sequence": "5"
+			},
+			{
+				"name": "Membership",
+				"content": "homebanner_english_Desktop_VIP_ENG.jpg",
+				"mobile_content": "homebanner_mobile_english_ENG_VIP.jpg",
+				"url": "https://www.eclbet.com/my/vip.html",
+				"sequence": "8"
+			}
+		],
+		"status": "0",
+		"imgPath": "images/cms/"
+	}
+}
+

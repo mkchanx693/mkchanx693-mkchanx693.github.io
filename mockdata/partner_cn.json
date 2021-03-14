@@ -1,0 +1,60 @@
+{
+    "partners":[
+        {
+            "partner_img":"/assets/img/CHN/Partner-_-Ambassador_Namewee.png",
+            "partner_name_cn": "黄明志",
+            "partner_name":"Namewee ",
+            "partner_desc":"是马来西亚华裔嘻哈唱片艺术家，作曲家，电影制片人和演员。",
+            "partner_yout":"2.64M Subscribers",
+            "partner_ins":"580K Followers",
+            "partner_fb":"2.1M Likes<br/> 2.3M Followers",
+            "data_aos_delay":"0"
+        },
+        {
+            "partner_img":"/assets/img/CHN/Partner-_-Ambassador_Peng-Chia-Chia.png",
+            "partner_name":"Peng Chia Chia ",
+            "partner_name_cn": "澎恰恰",
+            "partner_desc":"是一位台湾歌手，创作，主持，电影编剧，和导演。巅峰之作是《鐵獅玉玲瓏》",
+            "partner_yout":"",
+            "partner_ins":"",
+            "partner_fb":"",
+            "data_aos_delay":"150"
+        },
+        {
+            "partner_img":"/assets/img/CHN/Partner-_-Ambassador_Amber.png",
+            "partner_name":"Amber Na ",
+            "partner_name_cn": "蓝星蕾",
+            "partner_desc":"",
+            "partner_yout":"",
+            "partner_ins":"1.6M Followers",
+            "partner_fb":"130K Likes<br/> 300K Followers",
+            "partner_ins_name": "DJAmberNa",
+            "partner_fb_name": "amberna_official",
+            "data_aos_delay":"300"
+        },
+        {
+            "partner_img":"/assets/img/CHN/Partner-_-Ambassador_Angelaqiqi.png",
+            "partner_name":"Angelaqiqi ",
+            "partner_name_cn": "张安琪",
+            "partner_desc":"",
+            "partner_yout":"",
+            "partner_ins":"1M Followers",
+            "partner_fb":"116K Likes<br/> 667K Followers",
+            "partner_ins_name": "angelafollower",
+            "partner_fb_name": "angelachong_99",
+            "data_aos_delay":"450"
+        },
+        {
+            "partner_img":"/assets/img/CHN/Partner-_-Ambassador_Puiyi.png",
+            "partner_name":"Pui Yi ",
+            "partner_name_cn": "糖糖",
+            "partner_desc":"",
+            "partner_yout":"",
+            "partner_ins":"3.2M Followers",
+            "partner_fb":"157K Likes<br/> 205K Followers",
+            "partner_ins_name": "mspuiyi",
+            "partner_fb_name": "ms_puiyi",
+            "data_aos_delay":"600"
+        }
+    ]
+}
