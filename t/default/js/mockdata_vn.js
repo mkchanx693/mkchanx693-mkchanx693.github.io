@@ -4,13 +4,6 @@ var mockData_banner = {
 	"d": {
 		"homebanner": [
 			{
-				"name": "winter",
-				"content": "homebanner_english_Desktop_ENG2234.jpg",
-				"mobile_content": "homebanner_mobile_english_Mobile_ENG223.jpg",
-				"url": "",
-				"sequence": "1"
-			},
-			{
 				"name": "Number Game",
 				"content": "homebanner_english_Desktop_ENG_MY666.jpg",
 				"mobile_content": "homebanner_mobile_english_Mobile_ENG_MY2343243.jpg",
@@ -37,13 +30,6 @@ var mockData_banner = {
 				"mobile_content": "homebanner_mobile_english_Mobile_truepay_ENG.png",
 				"url": "",
 				"sequence": "5"
-			},
-			{
-				"name": "Membership",
-				"content": "homebanner_english_Desktop_VIP_ENG.jpg",
-				"mobile_content": "homebanner_mobile_english_ENG_VIP.jpg",
-				"url": "https://www.eclbet.com/my/vip.html",
-				"sequence": "8"
 			}
 		],
 		"status": "0",
@@ -301,8 +287,8 @@ var mockData_partner = {
             "partner_yout":"",
             "partner_ins":"1.6M 6 triệu người theo dõi",
             "partner_fb":"130K nghìn lượt thích<br/> 300K nghìn người theo dõi",
-            "partner_ins_name": "DJAmberNa",
-            "partner_fb_name": "amberna_official",
+            "partner_ins_name": "amberna_official",
+            "partner_fb_name": "DJAmberNa",
             "data_aos_delay":"300"
         },
         {
@@ -313,8 +299,8 @@ var mockData_partner = {
             "partner_yout":"",
             "partner_ins":"1M 6 triệu người theo dõi",
             "partner_fb":"116K nghìn lượt thích<br/> 667K nghìn người theo dõi",
-            "partner_ins_name": "angelafollower",
-            "partner_fb_name": "angelachong_99",
+            "partner_ins_name": "angelachong_99",
+            "partner_fb_name": "angelafollower",
             "data_aos_delay":"450"
         },
         {
@@ -325,8 +311,8 @@ var mockData_partner = {
             "partner_yout":"",
             "partner_ins":"3.2M 6 triệu người theo dõi",
             "partner_fb":"157K nghìn lượt thích<br/> 205K nghìn người theo dõi",
-            "partner_ins_name": "mspuiyi",
-            "partner_fb_name": "ms_puiyi",
+            "partner_ins_name": "ms_puiyi",
+            "partner_fb_name": "mspuiyi",
             "data_aos_delay":"600"
         }
     ]

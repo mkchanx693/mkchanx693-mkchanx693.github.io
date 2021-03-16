@@ -219,15 +219,13 @@
 <div class="con-wrap clear">
 <div class="header-nav list-desu" id="gamelistmenu">
 <ul class="clear">
-<li><a href="/vn/"><span class="icon-home"></span>TRANG CHủ</a></li>
-<li><a href="esports.html"><span class="icon-esports"></span>THể THAO đIệN Tử</a></li>
-<li><a href="sports.html"><span class="icon-sports"></span>THể THAO</a></li>
-<li><a href="livecasino.html"><span class="icon-poker"></span>SòNG BạC TRựC TIếP</a></li>
-<li><a href="slots.html"><span class="icon-slot"></span>SLOTS</a></li>
-<li><a href="promotion.html"><span class="icon-promo"></span>KHUYếN MãI</a></li>
-<li><a href="vip.html"><span class="icon-vip"></span>VIP</a></li>
-<li><a href="prediction.html"><span class="icon-prediction"></span>DỰ ĐOÁN</a></li>
-<li><a href="mobile-app.html"><span class="icon-mobile"></span>APP</a></li>
+<li><a href="esports.html"><img class="top-nav-icon" src="assets/img/VN/Esport_Icon.png" alt="menu-icon"/>THể THAO đIệN Tử</a></li>
+<li><a href="sports.html"><img class="top-nav-icon" src="assets/img/VN/Sport_Icon.png" alt="menu-icon"/>THể THAO</a></li>
+<li><a href="livecasino.html"><img class="top-nav-icon" src="assets/img/vn/Live-Casino_Icon.png" alt="menu-icon"/>SòNG BạC TRựC TIếP</a></li>
+<li><a href="slots.html"><img class="top-nav-icon" src="assets/img/VN/Slots_Icon.png" alt="menu-icon"/>SLOTS</a></li>
+<li><a href="promotion.html"><img class="top-nav-icon" src="assets/img/VN/Promo_Icon.png" alt="menu-icon"/>KHUYếN MãI</a></li>
+<li><a href="vip.html"><img class="top-nav-icon" src="assets/img/VN/VIP_Icon.png" alt="menu-icon"/>VIP</a></li>
+<li><a href="prediction.html"><img class="top-nav-icon" src="assets/img/VN/Prediction_Icon.png" alt="menu-icon"/>DỰ ĐOÁN</a></li>
 </ul>
 </div>
 </div>
@@ -566,7 +564,7 @@
 		var annBox = '';
 		var annDateFormated = convertDate(annDate);
 		var annTitle = annContent.split('】')[0].substring(1);
-		var annSnippet = truncateString(annContent.split('】')[1],100);
+		var annSnippet = truncateString(annContent.split('】')[1],150);
 		if (annCount % annToShow == 1) {
 			annBox += '<tbody id="annPage-' + (Math.floor(annCount / annToShow) + 1) + '" class="annPage">';
 		}
@@ -725,6 +723,7 @@
 	}
 </style>
 <div class="conbody">
+	<div class="sections-wrap-overlay">
 	<div class="mainbanner">
 		<div class="banner-overlay left"></div>
 		<div class="banner-overlay right"></div>
@@ -735,155 +734,160 @@
 			</div>
 		</div>
 	</div>
-	<div class="sections-wrap-bg">
-		<div class="sections-wrap-overlay">
-			<div class="main-section-wrap">
-				<div class="menu-section-wrap">
-					<div class="menu-title" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="300" data-aos-once="true">
-						<img class="menu-icon" src="assets/img/VN/Menu_Icon.png" alt="Video"/><span>Danh sách</span>
-					</div>
-					<div class="menu-section-floater">
-						<div class="menu-icon-left-wrap menu-block">
-							<div class="menu-icon-wrap active" data-menu="esport" data-menu-link="esports.html" data-aos="fade-right" data-aos-easing="linear" data-aos-delay="0">
-								<img class="menu-screen-icon" src="assets/img/VN/Esport_Icon.png" alt="menu-icon"/>
-								<span>THể THAO đIệN Tử</span>
-							</div>
-							<div class="menu-icon-wrap" data-menu="sport" data-menu-link="sports.html" data-aos="fade-right" data-aos-easing="linear" data-aos-delay="100">
-								<img class="menu-screen-icon" src="assets/img/VN/Sport_Icon.png" alt="menu-icon"/>
-								<span class="active">THể THAO</span>
-							</div>
-							<div class="menu-icon-wrap" data-menu="live-casino" data-menu-link="livecasino.html" data-aos="fade-right" data-aos-easing="linear" data-aos-delay="200">
-								<img class="menu-screen-icon" src="assets/img/VN/Live-Casino_Icon.png" alt="menu-icon"/>
-								<span>SòNG BạC TRựC TIếP</span>
-							</div>
-							<div class="menu-icon-wrap" data-menu="slots" data-menu-link="slots.html" data-aos="fade-right" data-aos-easing="linear" data-aos-delay="300">
-								<img class="menu-screen-icon" src="assets/img/VN/Slots_Icon.png" alt="menu-icon"/>
-								<span>SLOTS</span>
-							</div>
-						</div>
-						<div class="menu-line-left-wrap menu-block">
-							<img class="menu-line esport active" src="assets/img/VN/Menu_Esport-Line_VN.png" alt="line"/>
-							<img class="menu-line sport" src="assets/img/VN/Menu_Sport-Line_VN.png" alt="line"/>
-							<img class="menu-line live-casino" src="assets/img/VN/Menu_Live-Casino-Line_VN.png" alt="line"/>
-							<img class="menu-line slots" src="assets/img/VN/Menu_Slots-Line_VN.png" alt="line"/>
-						</div>	
-						<div class="menu-icon-middle-wrap menu-block" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-once="true">
-							<img class="menu-screen-display" src="assets/img/VN/Esport-VN.png" alt="screen"/>
-						</div>
-						<div class="menu-line-right-wrap menu-block">
-							<img class="menu-line promo" src="assets/img/VN/Menu_Promo-Line_VN.png" alt="line"/>
-							<img class="menu-line vip" src="assets/img/VN/Menu_VIP-Line_VN.png" alt="line"/>
-							<img class="menu-line prediction" src="assets/img/VN/Menu_Prediction-Line_VN.png" alt="line"/>
-						</div>	
-						<div class="menu-icon-right-wrap menu-block">
-							<div class="menu-icon-wrap" data-menu="promo" data-menu-link="promotion.html" data-aos="fade-left" data-aos-easing="linear" data-aos-delay="0">
-								<img class="menu-screen-icon" src="assets/img/VN/Promo_Icon.png" alt="menu-icon"/>
-								<span>KHUYếN MãI</span>
-							</div>
-							<div class="menu-icon-wrap" data-menu="vip" data-menu-link="vip.html" data-aos="fade-left" data-aos-easing="linear" data-aos-delay="100">
-								<img class="menu-screen-icon" src="assets/img/VN/VIP_Icon.png" alt="menu-icon"/>
-								<span>VIP</span>
-							</div>
-							<div class="menu-icon-wrap" data-menu="prediction" data-menu-link="prediction.html" data-aos="fade-left" data-aos-easing="linear" data-aos-delay="200">
-								<img class="menu-screen-icon" src="assets/img/VN/Prediction_Icon.png" alt="menu-icon"/>
-								<span>DỰ ĐOÁN</span>
-							</div>
-						</div>
-						<a id="btnGoNow" href="/esports.html"><div class="menu-title bottom"><img class="go-icon" src="assets/img/VN/Go-Now-Button_VN.png" alt="play"/></div></a>
-					</div>		
+		<div class="main-section-wrap">
+			<div class="menu-section-wrap">
+				<div class="menu-title" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="300" data-aos-once="true">
+					<img class="menu-icon" src="assets/img/VN/Menu_Icon.png" alt="Video"/><span>Danh sách</span>
 				</div>
-			</div>
-			<div class="slogan-wrap"><img class="img-slogan" src="assets/img/VN/VN-Slogan-1.png" alt="slogan"/></div>
-			<div class="news-section-wrap con-wrap clear">
-				<div class="main-video-wrap" data-aos="fade-right" data-aos-easing="linear">
-					<div class="main-page-subtitle"><img class="video-icon" src="assets/img/VN/Video_Icon.png" alt="Video"/><span>VIDEO</span></div>
-					<div class="main-youtube-frame">
-						<iframe width="100%" height="398" src="https://www.youtube.com/embed/z7_mKs7pPUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				</div>
-				<div class="main-news-wrap" data-aos="fade-left" data-aos-easing="linear">
-					<div class="main-page-subtitle"><img class="announcement-icon" src="assets/img/VN/Announcement-Icon.png" alt="speaker"/><span>THÔNG BÁO</span></div>
-					<div class="main-news-content-wrap">
-						<div class="main-news-content">
-							<div class="main-news-cont">
-								<table id="main-news-table">
-									<tbody id="main-news-list"></tbody>
-								</table>
-								<div id="annPagination-wrap"></div>
-							</div>
+				<div class="menu-section-floater">
+					<div class="menu-icon-left-wrap menu-block">
+						<div class="menu-icon-wrap active" data-menu="esport" data-menu-link="esports.html" data-aos="fade-right" data-aos-easing="linear" data-aos-delay="0">
+							<img class="menu-screen-icon" src="assets/img/VN/Esport_Icon.png" alt="menu-icon"/>
+							<span>THể THAO đIệN Tử</span>
+						</div>
+						<div class="menu-icon-wrap" data-menu="sport" data-menu-link="sports.html" data-aos="fade-right" data-aos-easing="linear" data-aos-delay="100">
+							<img class="menu-screen-icon" src="assets/img/VN/Sport_Icon.png" alt="menu-icon"/>
+							<span class="active">THể THAO</span>
+						</div>
+						<div class="menu-icon-wrap" data-menu="live-casino" data-menu-link="livecasino.html" data-aos="fade-right" data-aos-easing="linear" data-aos-delay="200">
+							<img class="menu-screen-icon" src="assets/img/VN/Live-Casino_Icon.png" alt="menu-icon"/>
+							<span>SòNG BạC TRựC TIếP</span>
+						</div>
+						<div class="menu-icon-wrap" data-menu="slots" data-menu-link="slots.html" data-aos="fade-right" data-aos-easing="linear" data-aos-delay="300">
+							<img class="menu-screen-icon" src="assets/img/VN/Slots_Icon.png" alt="menu-icon"/>
+							<span>SLOTS</span>
 						</div>
 					</div>
-				</div>
+					<div class="menu-line-left-wrap menu-block">
+						<img class="menu-line esport active" src="assets/img/VN/Menu_Esport-Line_VN.png" alt="line"/>
+						<img class="menu-line sport" src="assets/img/VN/Menu_Sport-Line_VN.png" alt="line"/>
+						<img class="menu-line live-casino" src="assets/img/VN/Menu_Live-Casino-Line_VN.png" alt="line"/>
+						<img class="menu-line slots" src="assets/img/VN/Menu_Slots-Line_VN.png" alt="line"/>
+					</div>	
+					<div class="menu-icon-middle-wrap menu-block" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-once="true">
+						<img class="menu-screen-display" src="assets/img/VN/Esport-VN.png" alt="screen"/>
+					</div>
+					<div class="menu-line-right-wrap menu-block">
+						<img class="menu-line promo" src="assets/img/VN/Menu_Promo-Line_VN.png" alt="line"/>
+						<img class="menu-line vip" src="assets/img/VN/Menu_VIP-Line_VN.png" alt="line"/>
+						<img class="menu-line prediction" src="assets/img/VN/Menu_Prediction-Line_VN.png" alt="line"/>
+					</div>	
+					<div class="menu-icon-right-wrap menu-block">
+						<div class="menu-icon-wrap" data-menu="promo" data-menu-link="promotion.html" data-aos="fade-left" data-aos-easing="linear" data-aos-delay="0">
+							<img class="menu-screen-icon" src="assets/img/VN/Promo_Icon.png" alt="menu-icon"/>
+							<span>KHUYếN MãI</span>
+						</div>
+						<div class="menu-icon-wrap" data-menu="vip" data-menu-link="vip.html" data-aos="fade-left" data-aos-easing="linear" data-aos-delay="100">
+							<img class="menu-screen-icon" src="assets/img/VN/VIP_Icon.png" alt="menu-icon"/>
+							<span>VIP</span>
+						</div>
+						<div class="menu-icon-wrap" data-menu="prediction" data-menu-link="prediction.html" data-aos="fade-left" data-aos-easing="linear" data-aos-delay="200">
+							<img class="menu-screen-icon" src="assets/img/VN/Prediction_Icon.png" alt="menu-icon"/>
+							<span>DỰ ĐOÁN</span>
+						</div>
+					</div>
+					<a id="btnGoNow" href="/esports.html"><div class="menu-title bottom"><img class="go-icon" src="assets/img/VN/Go-Now-Button_VN.png" alt="play"/></div></a>
+				</div>		
 			</div>
-			<img class="section-divider-center" src="assets/img/VN/Divider-Line_1.png" alt="divider1"/>
-			<div class="slogan-wrap event"><img class="img-slogan" src="assets/img/VN/VN-Slogan-2.png" alt="slogan"/></div>
-			<div class="event-section-wrap con-wrap clear">	
-				<div class="main-video-wrap event" data-aos="fade-right" data-aos-easing="linear">
-					<div class="main-page-subtitle"><img class="event-icon" src="assets/img/VN/Highlight-Event-Icon.png" alt="highlight"/><span>SỰ KIỆN NỔI BẬT</span></div>
-					<div class="event-video-wrap tilt-div">
-							<div>
-								<div class="main-youtube-frame" data-traverse-index="0">
-									<iframe width="100%" height="398" src="https://www.youtube.com/embed/z7_mKs7pPUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								</div>
-							</div>				
-					</div>
-					<img class="link-btn-line-2" src="assets/img/VN/Highlight-Event_Line-2.png" alt="line"/>
-							<span id="eventIndexText">01 / 07</span>
-							<img class="link-btn-left inactive" alt="line" onclick="eventTraverse('left');"/>
-							<img class="link-btn-right active" alt="line" onclick="eventTraverse('right');"/>
-				</div>
-				<div class="youtube-link-btn" data-aos="fade-right" data-aos-easing="linear" data-aos-delay=300>
-					<img class="link-btn-line" src="assets/img/VN/Highlight-Event_Line.png" alt="line"/>
-					<a id="eventBtnGo"><img class="link-btn" src="assets/img/VN/Go-Now-Button_VN.png" alt="line"/></a>
-				</div>
-			</div>
-			<img class="section-divider-center" src="assets/img/VN/Divider-Line_2.png" alt="divider2"/>
-			<div class="main-ambassador con-wrap clear"></div>
-			<div class="download-section-wrap con-wrap clear">
-				<div class="mobile-img-wrap" data-aos="fade-up" data-aos-easing="linear">
-					<img class="mobile-img" src="assets/img/VN/Mobile-VN.png" alt="mobile"/>
-				</div>
-				<div class="mobile-download-wrap">
-					<div class="download-title en" data-aos="fade-left" data-aos-easing="linear">
-						<span class="title-small">PLAY HERE, WIN HERE</span><br/>
-						<span class="title-big">Ứng dụng di động</span>
-					</div>
-					<div class="download-button" data-aos="fade-up" data-aos-easing="linear">
-						<a href="https://app.byurl.pw/ECLGAME.apk" target="_blank">
-							<img class="mobile-img" src="assets/img/VN/Android-Download.png" alt="mobile"/><br/><br/>
-						</a>
-						<span class="download-text">Tải xuống tại<br/>Playstore</span>
-					</div>
-					<div class="download-button" data-aos="fade-up" data-aos-easing="linear">
-						<a href="javascript:void(0)" onclick="coming_soon()">
-							<img class="mobile-img" src="assets/img/VN/Apple-Download.png" alt="mobile"/><br/><br/>
-						</a>
-						<span class="download-text">Tải xuống tại<br/>Appstore</span>
-					</div>
-				</div>
-			</div>
-			<div class="establish-section-wrap con-wrap clear">
-				<div class="establish-section-floater">
-					<span class="establish-title">ECLBET được thành lập vào năm 2017.</span><br/>
-					<img class="img-divider" src="assets/img/VN/Established-Divider-Line.png" alt="divider"/><br/>
-					<span>Công ty đa quốc gia nổi tiếng. Phát triển một cách nhanh chóng ở Malaysia, Singapore và Việt Nam. Đã có hơn 100.000 người chơi.</span><br/>
-					<div style="display:block">
-						<a href="https://www.facebook.com/eclbet" target="_blank">
-							<img class="img-social img-social-fb" src="assets/img/VN/Facebook_Icon.png" alt="social-fb"/>
-						</a>
-						<a href="https://www.instagram.com/eclbet/" target="_blank">
-							<img class="img-social img-social-ins" src="assets/img/VN/Instagram-Icon.png" alt="social-ins"/>
-						</a>
-						<a href="https://www.youtube.com/channel/UCRXi1gGSIGv6PTJQkwMcCiw" target="_blank">
-							<img class="img-social img-social-yout" src="assets/img/VN/Video_Icon.png" alt="social-yout"/>
-						</a>
-						
-					</div>
-				</div>
-			</div>
-			<img class="img-bottom-slogan" src="assets/img/VN/Bottom-Slogan_VN.png" alt="slogan"/>
 		</div>
+		<div class="padding-spacing"></div>
+		<div class="news-section-wrap con-wrap clear">
+		<div class="slogan-wrap"><img class="img-slogan" src="assets/img/VN/VN-Slogan-1.png" alt="slogan"/></div>
+			<div class="main-video-wrap" data-aos="fade-right" data-aos-easing="linear">
+				<div class="main-page-subtitle"><img class="video-icon" src="assets/img/VN/Video_Icon.png" alt="Video"/><span>VIDEO</span></div>
+				<div class="main-youtube-frame">
+					<iframe width="100%" height="398" src="https://www.youtube.com/embed/z7_mKs7pPUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="main-news-wrap" data-aos="fade-left" data-aos-easing="linear">
+				<div class="main-page-subtitle"><img class="announcement-icon" src="assets/img/VN/Announcement-Icon.png" alt="speaker"/><span>THÔNG BÁO</span></div>
+				<div class="main-news-content-wrap">
+					<div class="main-news-content">
+						<div class="main-news-cont">
+							<table id="main-news-table">
+								<tbody id="main-news-list"></tbody>
+							</table>
+							<div id="annPagination-wrap"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="padding-spacing"></div>
+		<img class="section-divider-center" src="assets/img/VN/Divider-Line_1.png" alt="divider1"/>
+		<div class="padding-spacing"></div>
+		<div class="event-section-wrap con-wrap clear">
+		<div class="slogan-wrap event"><img class="img-slogan" src="assets/img/VN/VN-Slogan-2.png" alt="slogan"/></div>
+		<div class="event-section-wrap con-wrap clear">	
+			<div class="main-video-wrap event" data-aos="fade-right" data-aos-easing="linear">
+				<div class="main-page-subtitle"><img class="event-icon" src="assets/img/VN/Highlight-Event-Icon.png" alt="highlight"/><span>SỰ KIỆN NỔI BẬT</span></div>
+				<div class="event-video-wrap tilt-div">
+						<div>
+							<div class="" data-traverse-index="0">
+								<iframe width="100%" height="398" src="https://www.youtube.com/embed/z7_mKs7pPUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>				
+				</div>
+				<img class="link-btn-line-2" src="assets/img/VN/Highlight-Event_Line-2.png" alt="line"/>
+						<span id="eventIndexText">01 / 07</span>
+						<img class="link-btn-left inactive" alt="line" onclick="eventTraverse('left');"/>
+						<img class="link-btn-right active" alt="line" onclick="eventTraverse('right');"/>
+			</div>
+			<div class="youtube-link-btn" data-aos="fade-right" data-aos-easing="linear" data-aos-delay=300>
+				<img class="link-btn-line" src="assets/img/VN/Highlight-Event_Line.png" alt="line"/>
+				<a id="eventBtnGo"><img class="link-btn" src="assets/img/VN/Go-Now-Button_VN.png" alt="line"/></a>
+			</div>
+		</div>
+		<div class="padding-spacing"></div>
+		<img class="section-divider-center" src="assets/img/VN/Divider-Line_2.png" alt="divider2"/>
+		<div class="padding-spacing"></div>
+		<div class="main-ambassador con-wrap clear"></div>
+		<div class="padding-spacing"></div>
+		<div class="download-section-wrap con-wrap clear">
+			<div class="mobile-img-wrap" data-aos="fade-up" data-aos-easing="linear">
+				<div class="mobile-img-div"></div>
+			</div>
+			<div class="mobile-download-wrap">
+				<div class="download-title en" data-aos="fade-left" data-aos-easing="linear">
+					<span class="title-small">PLAY HERE, WIN HERE</span><br/>
+					<span class="title-big">Ứng dụng di động</span>
+				</div>
+				<div class="download-button" data-aos="fade-up" data-aos-easing="linear">
+					<a href="https://app.byurl.pw/ECLGAME.apk" target="_blank">
+						<img class="mobile-img" src="assets/img/VN/Android-Download.png" alt="mobile"/><br/><br/>
+					</a>
+					<span class="download-text">Tải xuống tại<br/>Playstore</span>
+				</div>
+				<div class="download-button ios" data-aos="fade-up" data-aos-easing="linear">
+					<a href="javascript:void(0)" onclick="coming_soon()">
+						<img class="mobile-img" src="assets/img/VN/Apple-Download.png" alt="mobile"/><br/><br/>
+					</a>
+					<span class="download-text">Tải xuống tại<br/>Appstore</span>
+				</div>
+			</div>
+		</div>
+		<div class="establish-section-wrap con-wrap clear">
+			<div class="establish-section-floater">
+				<span class="establish-title">ECLBET được thành lập vào năm 2017.</span><br/>
+				<img class="img-divider" src="assets/img/VN/Established-Divider-Line.png" alt="divider"/><br/>
+				<span>Công ty đa quốc gia nổi tiếng. Phát triển một cách nhanh chóng ở Malaysia, Singapore và Việt Nam. Đã có hơn 100.000 người chơi.</span><br/>
+				<div style="display:block">
+					<a href="https://www.facebook.com/eclbet" target="_blank">
+						<img class="img-social img-social-fb" src="assets/img/VN/Facebook_Icon.png" alt="social-fb"/>
+					</a>
+					<a href="https://www.instagram.com/eclbet/" target="_blank">
+						<img class="img-social img-social-ins" src="assets/img/VN/Instagram-Icon.png" alt="social-ins"/>
+					</a>
+					<a href="https://www.youtube.com/channel/UCRXi1gGSIGv6PTJQkwMcCiw" target="_blank">
+						<img class="img-social img-social-yout" src="assets/img/VN/Youtube-Icon.png" alt="social-yout"/>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+		<img class="img-bottom-slogan" src="assets/img/VN/Bottom-Slogan_VN.png" alt="slogan"/>
 	</div>
+</div>
 </div>
 <textarea id="hbtemplate1" style="display:none"><li data-target="#myCarousel" data-slide-to="R_HB_ID" class="R_HB_ACTIVE"></li>
 </textarea>

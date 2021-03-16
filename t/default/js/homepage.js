@@ -42,7 +42,7 @@ $(document).ready(function(){
 });
 
 function preparePartners(data){
-     var list ="<div class='main-page-subtitle'>AMBASSADORS & COLLABORATES</div>";
+     var list ="<div class='main-page-subtitle'><span class='partner-title'>AMBASSADORS & COLLABORATES<span></div>";
     $.each(data, function(index, value) {   
         list += drawPartners(value);
     });
@@ -57,11 +57,11 @@ function drawPartners(value){
             "<div class='amb-desc-wrap'>" +
                 "<span class='amb-desc-name'>"+ value.partner_name + "</span>&nbsp;<span class='amb-desc-name highlight'>" + value.partner_name_cn + "</span><br/>" +
                 "<span class='amb-desc-short'>"+ value.partner_desc + "</span><br/>" +
-                "<span class='desc amb-desc-fb' style='display:" + (value.partner_fb ? "inline-block" : "none") +"'><img class='facebook-icon' src='assets/img/ENG/Facebook_Icon.png' alt='icon-fb'/><span>" +value.partner_fb + "</span></span>" +
+                "<span class='desc amb-desc-fb' style='display:" + (value.partner_fb ? "inline-block" : "none") +"'><div class='facebook-icon'></div><span>" +value.partner_fb + "</span></span>" +
                 "<span style='display:" + (value.partner_fb_name ? "block" : "none") +"'>" +value.partner_fb_name + "</span>" +
-                "<span class='desc amb-desc-inst' style='display:" + (value.partner_ins ? "inline-block" : "none") +"'><img class='instagram-icon' src='assets/img/ENG/Instagram-Icon.png' alt='icon-ins'/>" + value.partner_ins+ "</span><br/>" +
+                "<span class='desc amb-desc-inst' style='display:" + (value.partner_ins ? "inline-block" : "none") +"'><div class='instagram-icon'></div>" + value.partner_ins+ "</span><br/>" +
                 "<span style='display:" + (value.partner_ins_name ? "block" : "none") +"'>" +value.partner_ins_name + "</span>" +
-                "<span class='desc amb-desc-youtube' style='display:"+ (value.partner_yout ? "inline-block" : "none") +"'><img class='video-icon' src='assets/img/ENG/Youtube-Icon.png' alt='icon-video'/>" + value.partner_yout + "</span><br/>" +
+                "<span class='desc amb-desc-youtube' style='display:"+ (value.partner_yout ? "inline-block" : "none") +"'><div class='youtube-icon'></div>" + value.partner_yout + "</span><br/>" +
             "</div>" +
 		"</div>" +
 		"<img class='img-amb-divider' src='assets/img/ENG/Partner-_-Ambassador_Divider-Line.png' alt='divider'/>" +
