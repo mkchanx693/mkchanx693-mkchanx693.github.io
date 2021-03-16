@@ -19,6 +19,12 @@
 .header-nav{
     padding: 3px 0;
 }
+.header-nav-wrap{
+    height:auto !important;
+}
+.header-nav a {
+    font-size:0.8em;
+}
 img.top-nav-icon {
     display: inline-block;
     height: 30px;
@@ -520,7 +526,7 @@ tr.ann-list-click{
 .establish-section-wrap{
     text-align:center;
     font-weight: normal;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     padding-top: 23vw;
     position: relative;
     font-family: 'Arial Custom';
@@ -697,7 +703,7 @@ tr.ann-list-click{
         list-style-position: inside;
     }
     .foot-site-map ul>li {
-        padding: 10px 0 0 44px!important;
+        padding: 10px 0 0 44px;
     }
   /*end footer*/
 
